@@ -8,7 +8,7 @@ const App = (props) => {
   return (
     <>
       <SearchBar fetchGifs={props.fetchGifs}/>
-      <GifsList />
+      <GifsList gifUrls={props.gifUrls}/>
     </>
   );
 };
