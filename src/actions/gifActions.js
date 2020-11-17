@@ -1,5 +1,4 @@
 import { apiKey } from '../config';
-export const RECEIVE_GIFS = 'RECEIVE_GIFS';
 import * as APIUtil from '../util/apiUtil';
 
 
@@ -25,3 +24,4 @@ export const fetchGifs = searchTerm => dispatch => (
 );
 
 
+export const RECEIVE_GIFS = 'RECEIVE_GIFS';

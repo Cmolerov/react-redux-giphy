@@ -13,4 +13,5 @@ const gifsReducer = (state = [], action) => {
   }
 };
 
-export default gifsReducer;
+
+export default gifsReducer; 

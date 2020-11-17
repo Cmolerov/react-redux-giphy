@@ -1,6 +1,6 @@
 import { apiKey } from '../config';
 
-APIUtil.fetchGifs(searchQuery);
+// APIUtil.fetchGifs(searchQuery);
 
 // TODO: Define and export a `fetchGifs` function to fetch from the Giphy API
 export const fetchGifs = searchTerm => (
